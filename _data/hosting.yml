@@ -381,6 +381,17 @@ websites:
       software: Yes
       hardware: Yes
       doc: https://www.transip.nl/vragen/574-hoe-stel-two-factor-authentication/
+      
+    - name: Uberspace
+      url: https://www.uberspace.de/
+      img: uberspace.png
+      tfa: Yes
+      sms: No
+      software: Yes
+      hardware: No
+      doc: https://wiki.uberspace.de/system:ssh#zwei-faktor-authentifizierung
+      exceptions:
+          text: "Google Authenticator only available for SSH-login"        
 
     - name: UKFast
       url: https://www.ukfast.co.uk/
